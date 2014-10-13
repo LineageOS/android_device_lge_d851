@@ -1,3 +1,7 @@
+# Bluetooth firmware
+bin/BCM4339_003.001.009.0061.0313_FM_I2S.hcd:etc/firmware/BCM4339_003.001.009.0061.0313_FM_I2S.hcd
+bin/BCM4339_003.001.009.0061.0312.hcd:etc/firmware/BCM4339_003.001.009.0061.0312.hcd
+
 # GPS
 bin/gsiff_daemon
 bin/location-mq
@@ -57,3 +61,11 @@ bin/sensors.qcom
 vendor/lib/hw/sensors.msm8974.so
 vendor/lib/libsensor1.so
 vendor/lib/libsensor_reg.so
+
+# WiFi
+etc/firmware/fw_bcmdhd_apsta.bin
+etc/firmware/fw_bcmdhd.bin
+etc/firmware/fw_bcmdhd_mfg.bin
+etc/wifi/bcmdhd.cal
+etc/wifi/bcmdhd_lgit.cal
+etc/wifi/bcmdhd_murata.cal
