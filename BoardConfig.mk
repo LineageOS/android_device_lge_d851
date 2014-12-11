@@ -25,6 +25,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/d851/bluetooth
 BOARD_HAVE_BLUETOOTH_BCM := true
 
 # Kernel
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive  # FIX THIS
 TARGET_KERNEL_CONFIG := cyanogenmod_d851_defconfig
 
 # Partitions
