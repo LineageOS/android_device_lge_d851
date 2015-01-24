@@ -23,6 +23,10 @@ $(call inherit-product-if-exists, vendor/lge/d851/d851-vendor.mk)
 PRODUCT_COPY_FILES += \
     device/lge/g3-common/configs/mixer_paths_bcm.xml:system/etc/mixer_paths.xml
 
+# NFC
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.nfc.hce.xml:system/etc/permissions/android.hardware.nfc.hce.xml
+
 # GPS
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf
@@ -30,6 +34,11 @@ PRODUCT_COPY_FILES += \
 # Wifi
 PRODUCT_PACKAGES += \
     libnetcmdiface
+
+# NFC packages
+PRODUCT_PACKAGES += \
+    NfcNci \
+    nfc_nci.pn54x.default
 
 # Get BCMDHD configs
 $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/config/config-bcm.mk)
