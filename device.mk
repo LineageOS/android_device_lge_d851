@@ -27,9 +27,17 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf
 
+# Target init script
+PRODUCT_PACKAGES += \
+    init.target.rc
+
 # Wifi
 PRODUCT_PACKAGES += \
     libnetcmdiface
+
+# BT/Wifi Mac Address
+PRODUCT_PACKAGES += \
+    hwaddrs
 
 # Get BCMDHD configs
 $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/config/config-bcm.mk)

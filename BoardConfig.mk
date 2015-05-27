@@ -37,6 +37,14 @@ TARGET_USERIMAGES_USE_F2FS := true
 # Recovery
 TARGET_RECOVERY_FSTAB := device/lge/d851/rootdir/etc/fstab.g3
 
+# SELinux
+BOARD_SEPOLICY_DIRS += device/lge/d851/sepolicy
+
+BOARD_SEPOLICY_UNION += \
+    file.te \
+    file_contexts \
+    wpa.te
+
 # Wifi
 BOARD_WLAN_DEVICE := bcmdhd
 BOARD_HOSTAPD_DRIVER := NL80211
