@@ -27,6 +27,9 @@ BOARD_HAVE_BLUETOOTH_BCM := true
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_d851_defconfig
 
+# NFC
+BOARD_NFC_CHIPSET := pn547
+
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 16777216
@@ -37,8 +40,8 @@ TARGET_USERIMAGES_USE_F2FS := true
 # Recovery
 TARGET_RECOVERY_FSTAB := device/lge/d851/rootdir/etc/fstab.g3
 
-# NFC
-BOARD_NFC_CHIPSET := pn547
+# RIL
+BOARD_RIL_CLASS := ../../../device/lge/d851/ril/
 
 # Wifi
 BOARD_WLAN_DEVICE := bcmdhd
