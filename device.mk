@@ -21,6 +21,7 @@ $(call inherit-product-if-exists, vendor/lge/d851/d851-vendor.mk)
 
 # Audio
 PRODUCT_COPY_FILES += \
+    device/lge/g3-common/configs/audio/audio_platform_info_bcm.xml:system/etc/audio_platform_info.xml \
     device/lge/g3-common/configs/audio/mixer_paths_bcm.xml:system/etc/mixer_paths.xml
 
 # NFC
