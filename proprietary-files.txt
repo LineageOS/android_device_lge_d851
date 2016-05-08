@@ -12,8 +12,7 @@ vendor/lib/libadiertac.so
 vendor/lib/libaudcal.so
 
 # Bluetooth firmware
-bin/BCM4339_003.001.009.0098.0415_B2_KR_ORC.hcd:etc/firmware/BCM4335_003.001.009.0098.0415_B2_KR_ORC.hcd
-bin/BCM4339_003.001.009.0105.0458_LGE_G3L_SPRINT_FM_ORC.hcd:etc/firmware/BCM4339_003.001.009.0105.0458_LGE_G3L_SPRINT_FM_ORC.hcd
+bin/BCM4339_003.001.009.0098.0414_B2_TMUS_USC_ORC.hcd:etc/firmware/BCM4339_003.001.009.0098.0414_B2_TMUS_USC_ORC.hcd
 
 # Qualcomm framework
 vendor/lib/libdiag.so
@@ -28,7 +27,6 @@ vendor/lib/libqmi_cci.so
 vendor/lib/libqmi_client_qmux.so
 vendor/lib/libqmi_common_so.so
 vendor/lib/libqmi_csi.so
-vendor/lib/libqmi_csvt_srvc.so
 vendor/lib/libqmi_encdec.so
 vendor/lib/libqmiservices.so
 
