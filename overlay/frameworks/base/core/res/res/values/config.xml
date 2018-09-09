@@ -30,6 +30,7 @@
         <item>SUPL_MODE=1</item>
         <item>SUPL_ES=0</item>
         <item>LPP_PROFILE=2</item>
+        <item>CAPABILITIES=0x31</item>
         <item>USE_EMERGENCY_PDN_FOR_EMERGENCY_SUPL=0</item>
         <item>A_GLONASS_POS_PROTOCOL_SELECT=15</item>
         <item>GPS_LOCK=0</item>
