@@ -48,5 +48,8 @@ PRODUCT_COPY_FILES += \
 # Get BCMDHD configs
 $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/config/config-bcm.mk)
 
+# System properties
+-include $(LOCAL_PATH)/system_prop.mk
+
 # common g3
 $(call inherit-product, device/lge/g3-common/g3.mk)
