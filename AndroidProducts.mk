@@ -15,3 +15,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_d851.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_d851-userdebug \
+    lineage_d851-eng \
+    lineage_d851-user
