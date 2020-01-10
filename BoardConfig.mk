@@ -43,9 +43,6 @@ TARGET_USERIMAGES_USE_F2FS := true
 # Recovery
 TARGET_RECOVERY_FSTAB := device/lge/d851/rootdir/etc/fstab.g3
 
-# RIL
-TARGET_RIL_VARIANT := caf
-
 # Wifi
 BOARD_WLAN_DEVICE := bcmdhd
 BOARD_HOSTAPD_DRIVER := NL80211
